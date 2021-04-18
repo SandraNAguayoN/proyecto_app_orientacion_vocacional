@@ -1,0 +1,111 @@
+name: sqlite
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite:
+  path:
+
+  cupertino_icons: ^0.1.2
+  rxdart: ^0.22.0
+  http: 
+  auto_refresh_list_view:
+  dropdown_search:
+  date_format:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: 
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path: "icons/icon.png"
+
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/home.gif
+    - assets/images/
+    - assets/images/scroll.jpg
+    - assets/fonts/Fugaz_One/
+    - images/
+    - fonts/Raleway/
+    - fonts/Kaushan_Script/
+    - fonts/Bad_Script/
+    - fonts/Lobster/
+    - fonts/Oswald/
+    - fonts/Satisfy/
+    - fonts/Tangerine/
+    - fonts/Amatic_SC/
+    - fonts/Courgette/
+    - fonts/Sacramento/
+    - fonts/Snippet/
+    - fonts/Reenie_Beanie/
+    - fonts/Srisakdi/
+
+
+  fonts:
+  - family: Fugaz One
+    fonts:
+      - asset: assets/fonts/Fugaz_One/FugazOne-Regular.ttf
+  - family: Raleway
+    fonts:
+      - asset: fonts/Raleway/Raleway-Black.ttf
+      - asset: fonts/Raleway/Raleway-ExtraLight.ttf
+  - family: Kaushan_Script
+    fonts:
+      - asset: fonts/Kaushan_Script/KaushanScript-Regular.ttf
+  - family: Oswald
+    fonts:
+      - asset: fonts/Oswald/Oswald-Bold.ttf
+      - asset: fonts/Oswald/Oswald-ExtraLight.ttf
+  - family: Bad_Script
+    fonts:
+      - asset: fonts/Bad_Script/BadScript-Regular.ttf
+  - family: Satisfy
+    fonts:
+      - asset: fonts/Satisfy/Satisfy-Regular.ttf
+  - family: Tangerine
+    fonts:
+      - asset: fonts/Tangerine/Tangerine-Bold.ttf
+      - asset: fonts/Tangerine/Tangerine-Regular.ttf
+  - family: Lobster
+    fonts:
+      - asset: fonts/Lobster/Lobster-Regular.ttf
+  - family: Amatic_SC
+    fonts:
+      - asset: fonts/Amatic_SC/AmaticSC-Bold.ttf
+      - asset: fonts/Amatic_SC/AmaticSC-Regular.ttf
+  - family: Courgette
+    fonts:
+      - asset: fonts/Courgette/Courgette-Regular.ttf
+  - family: Sacramento
+    fonts:
+      - asset: fonts/Sacramento/Sacramento-Regular.ttf
+  - family: Snippet
+    fonts:
+      - asset: fonts/Snippet/Snippet-Regular.ttf
+  - family: Reenie_Beanie
+    fonts:
+      - asset: fonts/Reenie_Beanie/ReenieBeanie-Regular.ttf
+  - family: Srisakdi
+    fonts:
+      - asset: fonts/Srisakdi/Srisakdi-Regular.ttf
+      - asset: fonts/Srisakdi/Srisakdi-Bold.ttf
+
+
+
